@@ -56,6 +56,8 @@ PASS
 ok  	github.com/typticat/wisdom-server/util	0.192s
 ```
 
+---
+
 ### Configuration
 Config's default path: `$HOME/.wisdom-server/config.yaml`
 
@@ -104,6 +106,8 @@ type Challenge struct {
  - `Signature` Secp256K1 signature. Signed by server's private key from the config.
  - `PublicKey` Secp256K1 public key, associated with private key.
  - `Solution` is a big number witch client should pick up and proove he solved this primitive mathematical puzzle.
+
+---
 
 ### Roadmap
 
