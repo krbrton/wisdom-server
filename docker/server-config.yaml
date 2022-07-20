@@ -1,0 +1,4 @@
+host: 0.0.0.0
+port: 7777
+timeout: 3
+secret_key: a7429f961c96e9aeab24f742135336dd705e54b360efb8f3d49ff36bfeb432cf
